@@ -1,5 +1,5 @@
-#Information for Tidy Dataset
-##This section gives information regarding the variables included in the tidy dataset 
+# Information for Tidy Dataset
+## This section gives information regarding the variables included in the tidy dataset 
 For each of 30 participants a variety of measurements were taken during each of 6 distinct activities.
 
 The measurements taken were:
@@ -84,8 +84,8 @@ tBodyGyroJe
 
 
 
-#Original feature information
-##This second section contains details about the inputs to the script
+# Original feature information
+## This second section contains details about the inputs to the script
 =================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
