@@ -2,32 +2,32 @@
 ## This section gives information regarding the variables included in the tidy dataset 
 For each of 30 participants a variety of measurements were taken during each of 6 distinct activities.
 
-The measurements taken were:
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag 
+The measurements taken were:  
+tBodyAcc-XYZ  
+tGravityAcc-XYZ  
+tBodyAccJerk-XYZ  
+tBodyGyro-XYZ  
+tBodyGyroJerk-XYZ  
+tBodyAccMag  
+tGravityAccMag  
+tBodyAccJerkMag  
+tBodyGyroMag  
+tBodyGyroJerkMag  
+fBodyAcc-XYZ  
+fBodyAccJerk-XYZ  
+fBodyGyro-XYZ  
+fBodyAccMag  
+fBodyAccJerkMag  
+fBodyGyroMag  
+fBodyGyroJerkMag   
 
 The activities conducted were:
-WALKING 
-WALKING_UPSTAIRS 
-WALKING_DOWNSTAIRS 
-SITTING 
-STANDING 
-LAYING
+WALKING  
+WALKING UPSTAIRS  
+WALKING DOWNSTAIRS  
+SITTING  
+STANDING  
+LAYING  
 
 The mean and standard deviation of each of these measurements was calculated for each of the activities.
 
@@ -37,49 +37,49 @@ Thus there are 6 observations of the mean of 66 variables for 30 participants, r
 
 The variable names indicate the name of the measurement for which the mean was taken.  Combined with the two ID columns, they are as follows:
 
-SubjectID - Number identifying participant
-Activityname - Name of activity participant was doing during measurements
+SubjectID - Number identifying participant  
+Activityname - Name of activity participant was doing during measurements  
 
 
-tBodyAcc-mean()-X
-tBodyAcc-mean()-Y
-tBodyAcc-mean()-Z
-tBodyAcc-std()-X
-tBodyAcc-std()-Y
-tBodyAcc-std()-Z
-tGravityAcc-mean()-X
-tGravityAcc-mean()-Y
-tGravityAcc-mean()-Z
-tGravityAcc-std()-X
-tGravityAcc-std()-Y
-tGravityAcc-std()-Z
-tBodyAccJerk-mean()-X
-tBodyAccJerk-mean()-Y
-tBodyAccJerk-mean()-Z
-tBodyAccJerk-std()-X
-tBodyAccJerk-std()-Y
-tBodyAccJerk-std()-Z
-tBodyGyro-mean()-X
-tBodyGyro-mean()-Y
-tBodyGyro-mean()-Z
-tBodyGyro-std()-X
-tBodyGyro-std()-Y
-tBodyGyro-std()-Z
-tBodyGyroJerk-mean()-X
-tBodyGyroJerk-mean()-Y
-tBodyGyroJerk-mean()-Z
-tBodyGyroJerk-std()-X
-tBodyGyroJerk-std()-Y
-tBodyGyroJerk-std()-Z
-tBodyAccMag-mean()
-tBodyAccMag-std()
-tGravityAccMag-mean()
-tGravityAccMag-std()
-tBodyAccJerkMag-mean()
-tBodyAccJerkMag-std()
-tBodyGyroMag-mean()
-tBodyGyroMag-std()
-tBodyGyroJe
+tBodyAcc-mean()-X  
+tBodyAcc-mean()-Y  
+tBodyAcc-mean()-Z  
+tBodyAcc-std()-X  
+tBodyAcc-std()-Y  
+tBodyAcc-std()-Z  
+tGravityAcc-mean()-X  
+tGravityAcc-mean()-Y  
+tGravityAcc-mean()-Z  
+tGravityAcc-std()-X  
+tGravityAcc-std()-Y  
+tGravityAcc-std()-Z  
+tBodyAccJerk-mean()-X  
+tBodyAccJerk-mean()-Y  
+tBodyAccJerk-mean()-Z  
+tBodyAccJerk-std()-X  
+tBodyAccJerk-std()-Y  
+tBodyAccJerk-std()-Z  
+tBodyGyro-mean()-X  
+tBodyGyro-mean()-Y  
+tBodyGyro-mean()-Z  
+tBodyGyro-std()-X  
+tBodyGyro-std()-Y  
+tBodyGyro-std()-Z  
+tBodyGyroJerk-mean()-X  
+tBodyGyroJerk-mean()-Y  
+tBodyGyroJerk-mean()-Z  
+tBodyGyroJerk-std()-X  
+tBodyGyroJerk-std()-Y  
+tBodyGyroJerk-std()-Z  
+tBodyAccMag-mean()  
+tBodyAccMag-std()  
+tGravityAccMag-mean()  
+tGravityAccMag-std()  
+tBodyAccJerkMag-mean()  
+tBodyAccJerkMag-std()  
+tBodyGyroMag-mean()  
+tBodyGyroMag-std()  
+tBodyGyroJe  
  
 
 
@@ -102,49 +102,49 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag 
+tBodyAcc-XYZ  
+tGravityAcc-XYZ  
+tBodyAccJerk-XYZ  
+tBodyGyro-XYZ  
+tBodyGyroJerk-XYZ  
+tBodyAccMag  
+tGravityAccMag  
+tBodyAccJerkMag  
+tBodyGyroMag  
+tBodyGyroJerkMag  
+fBodyAcc-XYZ  
+fBodyAccJerk-XYZ  
+fBodyGyro-XYZ  
+fBodyAccMag  
+fBodyAccJerkMag  
+fBodyGyroMag  
+fBodyGyroJerkMag   
 
 Of all the original variables (seen below) that were estimated for the above features only the mean and std were kept: 
 
-mean(): Mean value
-std(): Standard deviation
-mad(): Median absolute deviation 
-max(): Largest value in array
-min(): Smallest value in array
-sma(): Signal magnitude area
-energy(): Energy measure. Sum of the squares divided by the number of values. 
-iqr(): Interquartile range 
-entropy(): Signal entropy
-arCoeff(): Autorregresion coefficients with Burg order equal to 4
-correlation(): correlation coefficient between two signals
-maxInds(): index of the frequency component with largest magnitude
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
-skewness(): skewness of the frequency domain signal 
-kurtosis(): kurtosis of the frequency domain signal 
-bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+mean(): Mean value  
+std(): Standard deviation  
+mad(): Median absolute deviation   
+max(): Largest value in array  
+min(): Smallest value in array  
+sma(): Signal magnitude area  
+energy(): Energy measure. Sum of the squares divided by the number of values.   
+iqr(): Interquartile range   
+entropy(): Signal entropy  
+arCoeff(): Autorregresion coefficients with Burg order equal to 4  
+correlation(): correlation coefficient between two signals  
+maxInds(): index of the frequency component with largest magnitude  
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency  
+skewness(): skewness of the frequency domain signal   
+kurtosis(): kurtosis of the frequency domain signal   
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.  
 angle(): Angle between to vectors.
 
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:  
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+gravityMean  
+tBodyAccMean  
+tBodyAccJerkMean  
+tBodyGyroMean  
+tBodyGyroJerkMean  
 
